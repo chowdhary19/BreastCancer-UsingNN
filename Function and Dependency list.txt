@@ -1,0 +1,42 @@
+A Concise list of the features used in the breast cancer prediction model :-
+
+Mean radius
+Mean texture
+Mean perimeter
+Mean area
+Mean smoothness
+Mean compactness
+Mean concavity
+Mean concave points
+Mean symmetry
+Mean fractal dimension
+Radius error
+Texture error
+Perimeter error
+Area error
+Smoothness error
+Compactness error
+Concavity error
+Concave points error
+Symmetry error
+Fractal dimension error
+Worst radius
+Worst texture
+Worst perimeter
+Worst area
+Worst smoothness
+Worst compactness
+Worst concavity
+Worst concave points
+Worst symmetry
+Worst fractal dimension
+
+The script utilizes the following libraries :-
+
+1. numpy: Used for numerical operations and handling arrays.
+2. pandas: Used for data manipulation and handling DataFrames.
+3. sklearn.datasets: Specifically, load_breast_cancer from sklearn.datasets to load the breast cancer dataset.
+4. sklearn.model_selection: Specifically, train_test_split from sklearn.model_selection for splitting data into training and testing sets.
+5. sklearn.preprocessing: Specifically, StandardScaler from sklearn.preprocessing for feature scaling.
+6. sklearn.linear_model: Specifically, LogisticRegression from sklearn.linear_model for building the logistic regression model.
+7. sklearn.metrics: Specifically, classification_report and accuracy_score from sklearn.metrics for model evaluation.
